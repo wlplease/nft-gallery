@@ -44,7 +44,7 @@ const fetchFarcasterLiveMint = async () => {
   if (isProduction) {
     try {
       const res: string = await $fetch(
-        'https://raw.githubusercontent.com/kodadot/nft-gallery/main/script/farcasterLiveMint.json',
+        'https://raw.githubusercontent.com/voloview/nft-gallery/main/script/farcasterLiveMint.json',
         {
           method: 'GET',
         },

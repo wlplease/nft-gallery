@@ -2,7 +2,7 @@
   <div class="content">
     <div class="content-headline text-center">
       <h1 class="title is-1 relative z-[1]">
-        KodaDot Blog
+        Voloview Blog
       </h1>
       <div class="relative z-[1] text-2xl mb-20 font-medium">
         Let’s Explore The NFT Universe
@@ -10,7 +10,7 @@
       <img
         class="content-headline-cover"
         src="/blog-cover.png"
-        alt="KodaDot Blog"
+        alt="Voloview Blog"
       >
     </div>
 

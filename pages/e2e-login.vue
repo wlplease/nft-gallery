@@ -52,7 +52,7 @@ export default {
         {
           name: 'description',
           content:
-            'This is a mock address generator used for testing and development purposes on the KodaDot platform.',
+            'This is a mock address generator used for testing and development purposes on the Voloview platform.',
         },
         { name: 'robots', content: 'noindex, nofollow' },
       ],

@@ -84,12 +84,12 @@
       </div>
       <section class="footer-container-info flex flex-col">
         <h2 class="subtitle is-5">
-          KodaDot
+          Voloview
         </h2>
         <div>
           <ul class="footer-container-list">
             <li
-              v-for="item in menuKodadot"
+              v-for="item in menuVoloview"
               :key="item.url"
               class="footer-container-info-list-item"
             >
@@ -163,7 +163,7 @@
 </template>
 
 <script lang="ts" setup>
-import { NeoIcon } from '@kodadot1/brick'
+import { NeoIcon } from '@voloview1/brick'
 
 interface Menu {
   name: string
@@ -177,18 +177,18 @@ const { $i18n } = useNuxtApp()
 const menuIncentives: Menu[] = [
   {
     name: $i18n.t('ambassador program'),
-    url: 'https://hello.kodadot.xyz/be-part-of-kodadot/kodadots-programs/ambassador-program',
+    url: 'https://hello.voloview.com/be-part-of-voloview/voloview-programs/ambassador-program',
     external: true,
   },
   {
     name: $i18n.t('artist ambassador'),
-    url: 'https://hello.kodadot.xyz/be-part-of-kodadot/kodadots-programs/artist-ambassador-program',
+    url: 'https://hello.voloview.com/be-part-of-voloview/voloview-programs/artist-ambassador-program',
     external: true,
   },
 
   {
     name: $i18n.t('referralProgram'),
-    url: 'https://hello.kodadot.xyz/be-part-of-kodadot/kodadots-programs/artist-referral-program',
+    url: 'https://hello.voloview.com/be-part-of-voloview/voloview-programs/artist-referral-program',
     external: true,
   },
 ]
@@ -196,46 +196,46 @@ const menuIncentives: Menu[] = [
 const menuMarketplace: Menu[] = [
   {
     name: $i18n.t('developers'),
-    url: 'https://developers.kodadot.xyz',
+    url: 'https://developers.voloview.com',
     external: true,
   },
   {
     name: 'FAQ',
-    url: 'https://hello.kodadot.xyz/ecosystem/faq',
+    url: 'https://hello.voloview.com/ecosystem/faq',
     external: true,
   },
   {
     name: $i18n.t('tutorial'),
-    url: 'https://hello.kodadot.xyz/tutorial/',
+    url: 'https://hello.voloview.com/tutorial/',
     external: true,
   },
 ]
 
-const menuKodadot: Menu[] = [
+const menuVoloview: Menu[] = [
   {
-    name: $i18n.t('whyKoda.title'),
-    url: '/why-koda',
+    name: $i18n.t('whyVolo.title'),
+    url: '/why-volo',
     highlight: true,
   },
   {
     name: $i18n.t('footer.guide'),
-    url: 'https://hello.kodadot.xyz/about-us/who-are-we',
+    url: 'https://hello.voloview.com/about-us/who-are-we',
     external: true,
   },
   {
     name: $i18n.t('careers'),
-    url: 'https://hello.kodadot.xyz/be-part-of-kodadot/join-as-a-developer/hiring',
+    url: 'https://hello.voloview.com/be-part-of-voloview/join-as-a-developer/hiring',
     external: true,
   },
   {
     name: $i18n.t('merchshop'),
-    url: 'https://shop.kodadot.xyz',
+    url: 'https://shop.voloview.com',
     external: true,
   },
 
   {
     name: $i18n.t('press kit'),
-    url: 'https://github.com/kodadot/kodadot-presskit/tree/main/pre-v4',
+    url: 'https://github.com/voloview/voloview-presskit/tree/main/pre-v4',
     external: true,
   },
   {
@@ -258,27 +258,27 @@ const menuKodadot: Menu[] = [
 const socials = [
   {
     name: 'Twitter',
-    url: 'https://twitter.com/KodaDot',
+    url: 'https://twitter.com/Voloview',
   },
   {
     name: 'Farcaster',
-    url: 'https://warpcast.com/~/channel/koda',
+    url: 'https://warpcast.com/~/channel/volo',
   },
   {
     name: 'Telegram',
-    url: 'https://t.me/koda_eco',
+    url: 'https://t.me/volo_eco',
   },
   {
     name: 'Beehiiv',
-    url: 'https://kodadotweeklyroundup.beehiiv.com',
+    url: 'https://voloviewweeklyroundup.beehiiv.com',
   },
   {
     name: 'Linkedin',
-    url: 'https://www.linkedin.com/company/kodadot',
+    url: 'https://www.linkedin.com/company/voloview',
   },
   {
     name: 'Medium',
-    url: 'https://medium.com/kodadot',
+    url: 'https://medium.com/voloview',
   },
   {
     name: 'Youtube',

@@ -4,18 +4,18 @@
       Cookie Policy
     </h1>
 
-    <time class="mb-6">Last updated May 16, 2023</time>
+    <time class="mb-6">Last updated August 14, 2024</time>
 
     <p class="mb-4">
-      This Cookie Policy explains how KodaDot ("Company," "we," "us," and "our")
+      This Cookie Policy explains how Voloview ("Company," "we," "us," and "our")
       uses cookies and similar technologies to recognize you when you visit our
-      website at https://kodadot.xyz ("Website"). It explains what these
+      website at https://voloview.com ("Website"). It explains what these
       technologies are and why we use them, as well as your rights to control
       our use of them.
     </p>
 
     <p class="mb-4">
-      In some cases we may use cookies to collect personal information, or that
+      In some cases, we may use cookies to collect personal information, or that
       becomes personal information if we combine it with other information.
     </p>
 
@@ -31,7 +31,7 @@
     </p>
 
     <p class="mb-4">
-      Cookies set by the website owner (in this case, KodaDot ) are called
+      Cookies set by the website owner (in this case, Voloview) are called
       "first-party cookies." Cookies set by parties other than the website owner
       are called "third-party cookies." Third-party cookies enable third-party
       features or functionality to be provided on or through the website (e.g.,
@@ -128,7 +128,7 @@
       tools contained in the Website Storage Settings Panel. You can also
       control Flash Cookies by going to the Global Storage Settings Panel and
       following the instructions (which may include instructions that explain,
-      for example, how to delete existing Flash Cookies (referred to
+      for example, how to delete existing Flash Cookies (referred to as
       "information" on the Macromedia site), how to prevent Flash LSOS from
       being placed on your computer without your being asked, and (for Flash
       Player 8 and later) how to block Flash Cookies that are not being
@@ -183,7 +183,7 @@
 
     <p class="mb-4">
       If you have any questions about our use of cookies or other technologies,
-      please email us at info@kodadot.xyz
+      please email us at info@voloview.com
     </p>
   </section>
 </template>
@@ -198,7 +198,7 @@ export default {
       meta: [
         {
           name: 'description',
-          content: 'KodaDot Cookie Policy',
+          content: 'Voloview Cookie Policy',
         },
       ],
     })
