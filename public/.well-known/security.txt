@@ -1,0 +1,5 @@
+Contact: mailto:info@voloview.com
+Expires: 2026-12-31T23:01:00.000Z
+Preferred-Languages: en
+Canonical: https://voloview.com/.well-known/security.txt
+Policy: https://github.com/wlplease/nft-gallery/blob/main/SECURITY.md
